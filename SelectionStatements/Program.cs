@@ -6,7 +6,9 @@ namespace SelectionStatements
     {
         static void Main(string[] args)
         {
-            var r = new Random();
+            //-----------Excerise 1 if / else
+
+            var r = new Random();  //assigns r a random number
             var favNumber = r.Next(1, 1000); // gens a random number 
 
             Console.WriteLine("Guess what number I'm thinking?");
